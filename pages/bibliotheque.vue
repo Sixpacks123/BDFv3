@@ -62,14 +62,14 @@ definePageMeta({ layout: 'page' })
           <hr class="mb-4" />
         </div>
         <div>
-          <NuxtLink to="/teeshirt">
+          <NuxtLink to="/photographies">
             <AwesomeImages img="/images/BIBLI/8.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Photographie</p>
           <hr class="mb-4" />
         </div>
         <div>
-          <NuxtLink to="/teeshirt">
+          <NuxtLink to="/builtIinrennes">
             <AwesomeImages img="/images/BIBLI/9.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Built In Rennes</p>
@@ -84,21 +84,21 @@ definePageMeta({ layout: 'page' })
       </div>
       <div class="grid grid-cols-3 gap-x-4">
         <div>
-          <NuxtLink to="/teeshirt">
+          <NuxtLink to="/chronos">
             <AwesomeImages img="/images/BIBLI/10.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Chronos</p>
           <hr class="mb-4" />
         </div>
         <div>
-          <NuxtLink to="/teeshirt">
+          <NuxtLink to="/showreel">
             <AwesomeImages img="/images/BIBLI/11.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Showreel</p>
           <hr class="mb-4" />
         </div>
         <div>
-          <NuxtLink to="/teeshirt">
+          <NuxtLink to="/mrbricolage">
             <AwesomeImages img="/images/BIBLI/12.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Titre du projet</p>
@@ -113,7 +113,7 @@ definePageMeta({ layout: 'page' })
       </div>
       <div class="grid grid-cols-3 gap-x-4">
         <div>
-          <NuxtLink to="/teeshirt">
+          <NuxtLink to="/mphotographies">
             <AwesomeImages img="/images/BIBLI/13.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Photographies</p>

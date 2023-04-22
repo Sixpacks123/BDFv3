@@ -49,9 +49,6 @@ const MyTheme = {
     customGray: {
       DEFAULT: '#F1F1F1',
     },
-    customBlack: {
-      DEFAULT: '#141414',
-    },
   },
 }
 
@@ -83,7 +80,6 @@ export default <Partial<Config>>{
         slate: colors.slate,
         customYellow: MyTheme.colors.customYellow,
         customGray: MyTheme.colors.customGray,
-        customBlack: MyTheme.colors.customBlack,
       },
       fontFamily: {
         title: ['HelveticaBIG', 'sans-serif'],

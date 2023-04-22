@@ -2,7 +2,6 @@
 definePageMeta({ layout: 'page' })
 useHead({ titleTemplate: 'Mirage' })
 </script>
-
 <template>
   <LayoutPageWrapper>
     <LayoutPageSection>
@@ -103,11 +102,11 @@ useHead({ titleTemplate: 'Mirage' })
           </NuxtLink>
           <NuxtLink class="w-2/3" to="/logofolio">
 
-          <AwesomeImages  img="/images/domicile/8.png" />
+            <AwesomeImages  img="/images/domicile/8.png" />
           </NuxtLink>
         </div>
         <div class="flex flex-row w-full py-2 gap-3">
-          <NuxtLink class="w-1/2" to="/photographies">
+          <NuxtLink class="w-1/2" to="">
             <AwesomeImages img="/images/domicile/9.png" />
           </NuxtLink>
           <NuxtLink class="w-1/2" to="/builtIinrennes">
@@ -116,12 +115,20 @@ useHead({ titleTemplate: 'Mirage' })
         </div>
         <div class="flex flex-row w-full py-2 gap-3">
           <AwesomeImages class="w-1/3" img="/images/domicile/11.png" />
-          <AwesomeImages class="w-1/3" img="/images/domicile/12.png" />
-          <AwesomeImages class="w-1/3" img="/images/domicile/13.png" />
+          <NuxtLink class="w-1/3" to="/chronos">
+            <AwesomeImages img="/images/domicile/12.png" />
+          </NuxtLink>
+          <NuxtLink class="w-1/3" to="/mrbricolage">
+            <AwesomeImages img="/images/domicile/13.png" />
+          </NuxtLink>
         </div>
         <div class="flex flex-row w-full py-2 gap-3">
-          <AwesomeImages class="w-2/3" img="/images/domicile/14.png" />
-          <AwesomeImages class="w-1/3" img="/images/domicile/15.png" />
+          <NuxtLink class="w-2/3" to="/photographies">
+            <AwesomeImages img="/images/domicile/14.png" />
+          </NuxtLink>
+          <NuxtLink class="w-1/3" to="/showreel">
+            <AwesomeImages img="/images/domicile/15.png" />
+          </NuxtLink>
         </div>
       </div>
     </LayoutPageSection>
