@@ -43,6 +43,12 @@ const MyTheme = {
       '800': '#BB0000',
       '900': '#830000',
     },
+    customYellow: {
+      DEFAULT: '#DEFD34',
+    },
+    customGray: {
+      DEFAULT: '#F1F1F1',
+    },
   },
 }
 
@@ -72,8 +78,15 @@ export default <Partial<Config>>{
         blue: MyTheme.colors.blue,
         red: MyTheme.colors.red,
         slate: colors.slate,
+        customYellow: MyTheme.colors.customYellow,
+        customGray: MyTheme.colors.customGray,
       },
       fontFamily: {
+        title: ['HelveticaBIG', 'sans-serif'],
+        GrosTitre: ['GrosTitre', 'sans-serif'],
+        Title3: ['Title3', 'sans-serif'],
+        Title2: ['Title3', 'sans-serif'],
+        ibm: ['IBMRegular'],
         sans: ['Nunito', ...defaultTheme.fontFamily.sans],
       },
     },
