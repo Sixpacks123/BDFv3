@@ -5,6 +5,13 @@ definePageMeta({ layout: 'page' })
 <template>
   <LayoutPageWrapper>
     <LayoutPageSection>
+      <div class="py-4 cursor-pointer">
+        <img
+          class="hover:animate-spin"
+          src="/images/fleche2.png"
+          @click="navigateTo('/')"
+        />
+      </div>
       <img src="/images/TEESHIRT/1.png" class="pb-5" />
       <p class="text-5xl font-medium font-title pb-2">Tee-shirt</p>
       <hr class="mb-4" />

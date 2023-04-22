@@ -27,15 +27,17 @@ definePageMeta({ layout: 'page' })
               </div>
             </div>
           </div>
-          <div
-            class="flex flew-row w-full justify-between flex-end pb-20 pt-20"
-          >
-            <img class="" src="/images/BIBLI/1.png" />
-            <img class="h-30 w-60" src="/images/BIBLI/2.png" />
-            <img class="h-30 w-60" src="/images/BIBLI/3.png" />
-            <img class="h-30 w-60" src="/images/BIBLI/4.png" />
-            <img class="h-30 w-60" src="/images/BIBLI/5.png" />
-            <img class="h-30 w-60" src="/images/BIBLI/6.png" />
+          <div class="pb-24">
+            <div
+              class="flex flew-row w-full justify-between pb-20 pt-20 flex-end"
+            >
+              <img class="" src="/images/BIBLI/1.png" />
+              <img class="h-30 w-60" src="/images/BIBLI/2.png" />
+              <img class="h-30 w-60" src="/images/BIBLI/3.png" />
+              <img class="h-30 w-60" src="/images/BIBLI/4.png" />
+              <img class="h-30 w-60" src="/images/BIBLI/5.png" />
+              <img class="h-30 w-60" src="/images/BIBLI/6.png" />
+            </div>
           </div>
         </div>
         <div
@@ -94,7 +96,6 @@ definePageMeta({ layout: 'page' })
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Showreel</p>
           <hr class="mb-4" />
-
         </div>
         <div>
           <NuxtLink to="/teeshirt">
