@@ -120,7 +120,7 @@ definePageMeta({ layout: 'page' })
           <hr class="mb-4" />
         </div>
         <div>
-          <NuxtLink to="/teeshirt">
+          <NuxtLink to="/logopholio">
             <AwesomeImages img="/images/BIBLI/14.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">À nos messages vocaux</p>

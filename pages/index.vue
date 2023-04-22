@@ -101,7 +101,10 @@ useHead({ titleTemplate: 'Mirage' })
           <NuxtLink class="w-1/3" to="/teeshirt">
             <AwesomeImages img="/images/domicile/7.png" />
           </NuxtLink>
-          <AwesomeImages class="w-2/3" img="/images/domicile/8.png" />
+          <NuxtLink class="w-2/3" to="/logofolio">
+
+          <AwesomeImages  img="/images/domicile/8.png" />
+          </NuxtLink>
         </div>
         <div class="flex flex-row w-full py-2 gap-3">
           <NuxtLink class="w-1/2" to="/photographies">
