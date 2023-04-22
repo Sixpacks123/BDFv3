@@ -59,7 +59,7 @@ declare module '@nuxt/schema' {
 
 export default defineAppConfig({
   awesome: {
-    name: 'Nuxt 3 Awesome Starter',
+    name: 'Mirage',
     project: {
       links: {
         github: 'https://github.com/viandwi24/nuxt3-awesome-starter',
@@ -68,7 +68,25 @@ export default defineAppConfig({
     layout: {
       page: {
         navbar: {
-          menus: [],
+          menus: [
+            { type: 'link', title: 'Domicile', to: { name: 'index' } },
+            {
+              type: 'link',
+              title: 'Bibliothèque',
+              to: { name: 'bibliotheque' },
+            },
+            {
+              type: 'link',
+              title: 'Fréquentation',
+              to: { name: 'frequentation' },
+            },
+            { type: 'button', title: 'Mirage', to: { name: 'mirage' } },
+            /*
+            { type: 'link', title: 'Blank', to: { name: 'blank' } },
+            { type: 'link', title: 'Post', to: { name: 'post' } },
+            { type: 'link', title: 'Test', to: { name: 'test' } },
+            { type: 'button', title: 'Setting', to: { name: 'setting' } }, */
+          ],
         },
       },
       footer: {

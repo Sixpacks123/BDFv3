@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 definePageMeta({ layout: 'page' })
-useHead({ titleTemplate: '' })
+useHead({ titleTemplate: 'Mirage' })
 </script>
 
 <template>
-  <AwesomeWelcome :with-alert="false" />
+  <AwesomeWelcome />
 </template>
