@@ -39,6 +39,25 @@ definePageMeta({ layout: 'page' })
       <hr class="mb-4" />
       <p class="font-medium text-left text-black mb-2">Vidéo</p>
       <img src="/images/MCFLY&CARLITO/4.png" class="mb-5" />
+      <div class="player-container">
+        <div class="grid grid-cols-2 gap-3 mb-5">
+          <div class="video-player col-span-2 sm:col-span-1">
+            <video controls>
+              <source src="/video/mcfly/1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-player col-span-2 sm:col-span-1">
+            <video controls>
+              <source src="/video/mcfly/2.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
     </LayoutPageSection>
   </LayoutPageWrapper>
 </template>
+<style>
+video {
+  width: 100%;
+}
+</style>
