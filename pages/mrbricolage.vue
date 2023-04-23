@@ -16,7 +16,7 @@ definePageMeta({ layout: 'page' })
       <p class="text-5xl font-medium font-GrosTitre pb-2">
         Mr Bricolage x Mcfly et Carlito
       </p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">Showreel</p>
       <p class="font-ibm italic xl:w-1/2 text-base mb-10">
         Ici, je vais vous présenter une collaboration entre internet et une
@@ -30,13 +30,13 @@ definePageMeta({ layout: 'page' })
         deuxième pour un jeu concours pour Mr Bricolage.
       </p>
       <p class="text-3xl font-medium pb-2">Storyboard</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">N°1</p>
       <img src="/images/MCFLY&CARLITO/2.png" class="mb-5" />
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">N°2</p>
       <img src="/images/MCFLY&CARLITO/3.png" class="mb-5" />
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">Vidéo</p>
       <img src="/images/MCFLY&CARLITO/4.png" class="mb-5" />
       <div class="player-container">

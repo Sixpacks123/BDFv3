@@ -14,7 +14,7 @@ definePageMeta({ layout: 'page' })
       </div>
       <img src="/images/BUILT_IN_RENNES/1.png" class="pb-5" />
       <p class="text-5xl font-medium font-GrosTitre pb-2">Built In Rennes</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         La menace du réchauffement climatique
       </p>
@@ -27,18 +27,18 @@ definePageMeta({ layout: 'page' })
         vous y étiez.
       </p>
       <p class="text-3xl font-medium pb-2">Identité graphique</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Logotype
       </p>
       <img src="/images/BUILT_IN_RENNES/2.png" class="mb-5" />
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Affiche promotionnelle
       </p>
       <img src="/images/BUILT_IN_RENNES/3.png" class="pb-5" />
       <p class="text-3xl font-medium pb-2">Application</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Mockup
       </p>

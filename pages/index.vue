@@ -18,7 +18,7 @@ useHead({ titleTemplate: 'Mirage' })
             </h1>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3">
               <div class="sm:mt-24">
-                <hr class="mb-4 bg-black" />
+                <hr class="mb-4 dark:border-white" />
                 <p class="font-ibm text-left text-sm sm:text-base">
                   DBF, c’est un studio qui est parti d’un projet sur les rêves
                   (Voir Mirage). Et puis on s’est dit : «pourquoi pas faire un
@@ -45,13 +45,15 @@ useHead({ titleTemplate: 'Mirage' })
         <div
           class="absolute bottom-0 left-0 right-0 w-full flex flex-row justify-center p-4 bg-customGray"
         >
-          <p class="font-ibm text-xs text-center">
-            Studio fondé en 2022 à Rennes par Gauthier Dumont, Guillaume Bour & Mathilde Faure, dans le cadre du Master 2 Directeur Artistique et Numérique LISAA de Rennes.
+          <p class="font-ibm text-xs text-center text-black">
+            Studio fondé en 2022 à Rennes par Gauthier Dumont, Guillaume Bour &
+            Mathilde Faure, dans le cadre du Master 2 Directeur Artistique et
+            Numérique LISAA de Rennes.
           </p>
         </div>
       </div>
       <p class="text-3xl font-medium pb-2">Petite Histoire</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-ibm italic xl:w-1/2 text-base mb-10">
         Gauthier a fait une licence gagna à Angers. Guillaume a multiplié les
         expériences et formations à Nior, Bordeaux, Nantes et Metz. Mathilde,
@@ -66,7 +68,7 @@ useHead({ titleTemplate: 'Mirage' })
         Studio DBF ?"
       </p>
       <p class="text-3xl font-medium pb-2">Les valeurs du studio</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <div class="flex flex-row flex-wrap mb-5">
         <div>
           <p class="font-bold">Déconstruire</p>
@@ -94,7 +96,7 @@ useHead({ titleTemplate: 'Mirage' })
         </div>
       </div>
       <p class="text-3xl pb-2">Nos projets</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <div class="flex flex-col w-full">
         <div class="flex flex-row w-full py-2 gap-3">
           <NuxtLink class="w-1/3" to="/teeshirt">
@@ -114,7 +116,7 @@ useHead({ titleTemplate: 'Mirage' })
         </div>
         <div class="flex flex-row w-full py-2 gap-3">
           <NuxtLink class="w-1/3" to="/message">
-          <AwesomeImages  img="/images/domicile/11.png" />
+            <AwesomeImages img="/images/domicile/11.png" />
           </NuxtLink>
           <NuxtLink class="w-1/3" to="/chronos">
             <AwesomeImages img="/images/domicile/12.png" />

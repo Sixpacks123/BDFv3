@@ -9,7 +9,7 @@ const menus = computed(() => awesome?.layout?.page?.navbar?.menus || [])
 
 <template>
   <header
-    class="flex sticky backdrop-filter backdrop-blur-md top-0 z-40 w-full flex-none transition-colors duration-300 bg-white/[0.5] dark:bg-slate-900/[0.5]"
+    class="flex sticky backdrop-filter backdrop-blur-md top-0 z-40 w-full flex-none transition-colors duration-300 bg-white/[0.5] dark:bg-customBlack"
   >
     <div
       class="flex-1 flex items-center justify-between max-w-screen-2xl mx-auto px-4"
@@ -18,7 +18,8 @@ const menus = computed(() => awesome?.layout?.page?.navbar?.menus || [])
       <div>
         <slot name="title">
           <NuxtLink to="/" class="font-bold text-lg text-primary-500">
-            <img src="/images/Logo.png" alt="logo"/>
+            <img src="/images/Logo.png" class="dark:invisible dark:absolute" alt="logo" />
+            <img src="/images/image.png" class="invisible absolute dark:visible dark:static " alt="logo" />
           </NuxtLink>
         </slot>
       </div>
@@ -37,7 +38,7 @@ const menus = computed(() => awesome?.layout?.page?.navbar?.menus || [])
                     'text-slate-900 dark:text-slate-100 font-bold': isActive,
                     'text-slate-700 dark:text-slate-300': !isActive,
                   }"
-                >{{ item?.title || '' }}</span
+                  >{{ item?.title || '' }}</span
                 >
               </NuxtLink>
             </template>

@@ -16,7 +16,7 @@ definePageMeta({ layout: 'page' })
       <p class="text-5xl font-medium font-GrosTitre pb-2">
         À nos messages vocaux
       </p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Compilation à la vice de tous les messages reçus
       </p>
@@ -33,14 +33,14 @@ definePageMeta({ layout: 'page' })
       </p>
       <img src="/images/message/2.gif" class="pb-5" />
       <p class="text-3xl font-medium pb-2">Identité graphique</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">Logo</p>
       <div class="grid grid-cols-2 gap-3 mb-5">
         <img src="/images/message/3.png" class="col-span-2" />
         <img src="/images/message/4.png" class="col-span-2 sm:col-span-1" />
         <img src="/images/message/5.png" class="col-span-2 sm:col-span-1" />
       </div>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">Typographie</p>
       <div class="col-span-2 bg-customBlack rounded-md mb-5 py-5 px-5">
         <p class="font-medium font-Title2 text-left text-customGray mb-2">
@@ -56,7 +56,7 @@ definePageMeta({ layout: 'page' })
           une signature délicate et juste.
         </p>
       </div>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">Post instagram</p>
       <div class="grid grid-cols-3 gap-3 mb-5">
         <img src="/images/message/6.png" class="col-span-2 sm:col-span-1" />
@@ -64,11 +64,11 @@ definePageMeta({ layout: 'page' })
         <img src="/images/message/8.png" class="col-span-2 sm:col-span-1" />
       </div>
       <p class="text-5xl font-medium font-GrosTitre pb-2">Vidéo</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <div class="grid grid-cols-2 gap-3 mb-5">
         <div class="col-span-2 sm:col-span-1">
           <p class="text-3xl font-medium pb-2">Nicolas</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
           <p class="font-medium text-left text-black mb-2">« Je suis une sous merde »</p>
           <div class="video-player">
             <video controls>
@@ -78,7 +78,7 @@ definePageMeta({ layout: 'page' })
         </div>
         <div class="col-span-2 sm:col-span-1">
           <p class="text-3xl font-medium pb-2">??</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
           <p class="font-medium text-left text-black mb-2">« Franchement je comprends rien »</p>
           <div class="video-player">
             <video controls>
@@ -88,7 +88,7 @@ definePageMeta({ layout: 'page' })
         </div>
         <div class="col-span-2 sm:col-span-1">
           <p class="text-3xl font-medium pb-2">Maman</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
           <p class="font-medium text-left text-black mb-2">« Descends du train »</p>
           <div class="video-player">
             <video controls>
@@ -98,7 +98,7 @@ definePageMeta({ layout: 'page' })
         </div>
         <div class="col-span-2 sm:col-span-1">
           <p class="text-3xl font-medium pb-2">Swann</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
           <p class="font-medium text-left text-black mb-2">« J’ai pas fais exprès »</p>
           <div class="video-player">
             <video controls>
@@ -108,7 +108,7 @@ definePageMeta({ layout: 'page' })
         </div>
         <div class="col-span-2 sm:col-span-1">
           <p class="text-3xl font-medium pb-2">Nicolas</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
           <p class="font-medium text-left text-black mb-2">« Speed Mouse »</p>
           <div class="video-player">
             <video controls>
@@ -118,7 +118,7 @@ definePageMeta({ layout: 'page' })
         </div>
         <div class="col-span-2 sm:col-span-1">
           <p class="text-3xl font-medium pb-2">Maman</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
           <p class="font-medium text-left text-black mb-2">« Je vais te gueuler dessus »</p>
           <div class="video-player">
             <video controls>
@@ -128,7 +128,7 @@ definePageMeta({ layout: 'page' })
         </div>
         <div class="col-span-2 sm:col-span-1">
           <p class="text-3xl font-medium pb-2">Nicolas</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
           <p class="font-medium text-left text-black mb-2">« Lien pour le truc »</p>
           <div class="video-player">
             <video controls>
@@ -138,7 +138,7 @@ definePageMeta({ layout: 'page' })
         </div>
         <div class="col-span-2 sm:col-span-1">
           <p class="text-3xl font-medium pb-2">Nicolas</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
           <p class="font-medium text-left text-black mb-2">« Les aventures»</p>
           <div class="video-player">
             <video controls>

@@ -14,7 +14,7 @@ definePageMeta({ layout: 'page' })
       </div>
       <img src="/images/LOGOFOLIO/1.png" class="pb-5" />
       <p class="text-5xl font-medium font-GrosTitre pb-2">Logofolio</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Logo créés dans le cadre de sujets de cours, d’entreprise et de projets
         personnels
@@ -27,7 +27,7 @@ definePageMeta({ layout: 'page' })
         viser juste, et tirer bien.
       </p>
       <p class="text-3xl font-medium pb-2">À nos messages vocaux</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">Compte Instagram</p>
 
       <div class="grid grid-cols-2 gap-3 mb-5">
@@ -48,7 +48,7 @@ definePageMeta({ layout: 'page' })
         </div>
       </div>
       <p class="text-3xl font-medium pb-2">Datalab</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Logo du Datalab de Crédit Agricole ECO
       </p>
@@ -73,7 +73,7 @@ definePageMeta({ layout: 'page' })
       </div>
 
       <p class="text-3xl font-medium pb-2">Datalab</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Logo du Datalab de Crédit Agricole ECO
       </p>
@@ -99,7 +99,7 @@ definePageMeta({ layout: 'page' })
       </div>
 
       <p class="text-3xl font-medium pb-2">Magali qu’est ce que tu fais ?</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">Taxes vertes</p>
       <div class="grid grid-cols-5 gap-3 mb-5">
         <img src="/images/LOGOFOLIO/11.png" class="col-span-5" />
@@ -124,7 +124,7 @@ definePageMeta({ layout: 'page' })
       </div>
 
       <p class="text-3xl font-medium pb-2">Capensolo</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Identité graphique pour un Skipper
       </p>
@@ -151,7 +151,7 @@ definePageMeta({ layout: 'page' })
         </div>
       </div>
       <p class="text-3xl font-medium pb-2">Hugo Aloche</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Identité graphique pour un développeur web
       </p>
@@ -175,7 +175,7 @@ definePageMeta({ layout: 'page' })
       </div>
 
       <p class="text-3xl font-medium pb-2">Fantabuleux Studio</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Identité graphique pour un studio graphique
       </p>
@@ -198,7 +198,7 @@ definePageMeta({ layout: 'page' })
         </div>
       </div>
       <p class="text-3xl font-medium pb-2">Belle arrivée</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         IIdentité graphique pour une opticienne
       </p>

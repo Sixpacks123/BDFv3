@@ -14,7 +14,7 @@ definePageMeta({ layout: 'page' })
       </div>
       <img src="/images/PHOTOGRAPHIEM/1.png" class="pb-5" />
       <p class="text-5xl font-medium font-GrosTitre pb-2">Photographies</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Fujifilm XE-4
       </p>
@@ -22,7 +22,7 @@ definePageMeta({ layout: 'page' })
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
       </p>
       <p class="text-3xl font-medium pb-2">N&B</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Techniques utilisés
       </p>
@@ -61,7 +61,7 @@ definePageMeta({ layout: 'page' })
         />
       </div>
       <p class="text-3xl font-GrosTitre pb-2">N&B</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium font-Title2 text-left mb-2">Techniques utilisés</p>
       <div class="grid grid-cols-2 gap-3 mb-5">
         <img

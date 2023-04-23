@@ -18,7 +18,7 @@ definePageMeta({ layout: 'page' })
             </h1>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3">
               <div class="mt-12">
-                <hr class="mb-4 text-blackÒ" />
+                <hr class="mb-4 dark:border-white" />
                 <p class="font-ibm text-left">
                   Nos projets les plus qualitatifs signé DBF. Projets de classe,
                   professionnel ou personnel, vous ne manquerez pas de vous
@@ -43,12 +43,14 @@ definePageMeta({ layout: 'page' })
         <div
           class="absolute bottom-0 left-0 right-0 w-full flex flex-row justify-center font-ibm p-4 bg-customGray"
         >
-          Motion design / Vidéo / logotype / Identités graphiques /
-          Photographies / 3D / Mise en page / Arts plastiques
+          <p class="font-ibm text-xs text-center text-black">
+            Motion design / Vidéo / logotype / Identités graphiques /
+            Photographies / 3D / Mise en page / Arts plastiques
+          </p>
         </div>
       </div>
       <p class="text-3xl font-medium font-GrosTitre pb-2">D</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <div class="flex flex-row justify-between mb-3">
         <p class="text-left font-Title3 mb-2">Dumont Gauthier</p>
         <p class="text-left font-ibm mb-2">1.</p>
@@ -59,25 +61,25 @@ definePageMeta({ layout: 'page' })
             <AwesomeImages img="/images/BIBLI/7.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Tee-shirt</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
         <div>
           <NuxtLink to="/photographies">
             <AwesomeImages img="/images/BIBLI/8.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Photographie</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
         <div>
           <NuxtLink to="/builtIinrennes">
             <AwesomeImages img="/images/BIBLI/9.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Built In Rennes</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
       </div>
       <p class="text-3xl font-medium font-GrosTitre pb-2">B</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <div class="flex flex-row justify-between mb-3">
         <p class="text-left font-Title3 mb-2">Bour Guillaume</p>
         <p class="text-left font-ibm mb-2">2.</p>
@@ -88,25 +90,25 @@ definePageMeta({ layout: 'page' })
             <AwesomeImages img="/images/BIBLI/10.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Chronos</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
         <div>
           <NuxtLink to="/showreel">
             <AwesomeImages img="/images/BIBLI/11.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Showreel</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
         <div>
           <NuxtLink to="/mrbricolage">
             <AwesomeImages img="/images/BIBLI/12.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Titre du projet</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
       </div>
       <p class="text-3xl font-medium font-GrosTitre pb-2">F</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <div class="flex flex-row justify-between mb-3">
         <p class="text-left font-Title3 mb-2">Faure Mathilde</p>
         <p class="text-left font-ibm mb-2">3.</p>
@@ -117,21 +119,21 @@ definePageMeta({ layout: 'page' })
             <AwesomeImages img="/images/BIBLI/13.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Photographies</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
         <div>
           <NuxtLink to="/message">
             <AwesomeImages img="/images/BIBLI/14.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">À nos messages vocaux</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
         <div>
           <NuxtLink to="/logofolio">
             <AwesomeImages img="/images/BIBLI/15.png" class="mb-5" />
           </NuxtLink>
           <p class="text-left font-Title2 mb-2">Logofolio</p>
-          <hr class="mb-4" />
+          <hr class="mb-4 dark:border-white" />
         </div>
       </div>
     </LayoutPageSection>

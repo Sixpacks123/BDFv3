@@ -14,7 +14,7 @@ definePageMeta({ layout: 'page' })
       </div>
       <img src="/images/TEESHIRT/1.png" class="pb-5" />
       <p class="text-5xl font-medium font-title pb-2">Tee-shirt</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left mb-2">
         direction artistique, branding, illustration, exécutif
       </p>
@@ -26,7 +26,7 @@ definePageMeta({ layout: 'page' })
         passer un message en plus, j’ai tout gagné.
       </p>
       <p class="text-3xl font-medium pb-2">Lafumette</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left mb-2">
         La menace du réchauffement climatique
       </p>
@@ -44,7 +44,7 @@ definePageMeta({ layout: 'page' })
         <img src="/images/TEESHIRT/4.png" class="col-span-2 sm:col-span-1" />
       </div>
       <p class="text-3xl font-medium pb-2">Roche Musique contest</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left mb-2">
         La «French Touch» by Roche Musique
       </p>

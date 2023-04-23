@@ -70,6 +70,9 @@ export default <Partial<Config>>{
   ],
   theme: {
     extend: {
+      hr: {
+
+      },
       maxWidth: {
         '8xl': '90rem',
       },

@@ -14,7 +14,7 @@ definePageMeta({ layout: 'page' })
       </div>
       <img src="/images/PHOTOGRAPHIE/1.png" class="pb-5" />
       <p class="text-5xl font-medium font-GrosTitre pb-2">Photographies</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Pellicule HP5, Objectif 50mm
       </p>
@@ -30,7 +30,7 @@ definePageMeta({ layout: 'page' })
         poétiques, et à caractère personnel.
       </p>
       <p class="text-3xl font-medium pb-2">Bretagne Noire</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium text-left text-black mb-2">
         Pellicule HP5, Objectif 50mm
       </p>
@@ -76,7 +76,7 @@ definePageMeta({ layout: 'page' })
         />
       </div>
       <p class="text-3xl font-GrosTitre pb-2">Automobil</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium font-Title2 text-left mb-2">Porsche since 1931</p>
       <p class="font-ibm italic xl:w-1/2 text-base mb-10">
         Cette série de photo rend hommage à la célèbre marque automobile
@@ -97,7 +97,7 @@ definePageMeta({ layout: 'page' })
         />
       </div>
       <p class="text-3xl font-GrosTitre pb-2">Divers</p>
-      <hr class="mb-4" />
+      <hr class="mb-4 dark:border-white" />
       <p class="font-medium font-Title2 text-left mb-2">
         Pellicule HP5, Objectif 50mm
       </p>
