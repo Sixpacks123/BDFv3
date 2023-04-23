@@ -48,6 +48,14 @@ definePageMeta({ layout: 'page' })
       <hr class="mb-4" />
       <p class="font-medium text-left text-black mb-2">Boite en bois</p>
       <img src="/images/CHRONOS/6.png" class="mb-5" />
+      <div class="flex justify-center">
+        <div class="video-player w-1/2">
+          <video controls>
+            <source src="/video/chronos/1.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
     </LayoutPageSection>
   </LayoutPageWrapper>
 </template>

@@ -28,7 +28,11 @@ definePageMeta({ layout: 'page' })
         Showreel
       </p>
       <!-- video -->
-
+      <div class="video-player">
+        <video controls>
+          <source src="/video/shoreel/1.mp4" type="video/mp4" />
+        </video>
+      </div>
 
     </LayoutPageSection>
   </LayoutPageWrapper>
