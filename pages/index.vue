@@ -105,7 +105,7 @@ useHead({ titleTemplate: 'Mirage' })
           </NuxtLink>
         </div>
         <div class="flex flex-row w-full py-2 gap-3">
-          <NuxtLink class="w-1/2" to="">
+          <NuxtLink class="w-1/2" to="/mphotograohies">
             <AwesomeImages img="/images/domicile/9.png" />
           </NuxtLink>
           <NuxtLink class="w-1/2" to="/builtIinrennes">
@@ -113,7 +113,9 @@ useHead({ titleTemplate: 'Mirage' })
           </NuxtLink>
         </div>
         <div class="flex flex-row w-full py-2 gap-3">
-          <AwesomeImages class="w-1/3" img="/images/domicile/11.png" />
+          <NuxtLink class="w-1/3" to="/message">
+          <AwesomeImages  img="/images/domicile/11.png" />
+          </NuxtLink>
           <NuxtLink class="w-1/3" to="/chronos">
             <AwesomeImages img="/images/domicile/12.png" />
           </NuxtLink>
