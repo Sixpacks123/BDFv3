@@ -6,20 +6,20 @@ useHead({ titleTemplate: 'Mirage' })
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div
-        class="h-screen w-full py-10 sm:py-20 flex items-center sm:items-end"
+        class="h-screen w-full sm:py-10 sm:py-20 flex items-start sm:items-end"
       >
         <div class="mb-2">
           <div class="grid grid-cols-12 gap-4">
             <h1
-              class="col-span-12 sm:col-span-6 lg:col-span-8 xl:col-span-9 text-4xl md:text-5xl xl:text-8xl font-title font-medium tracking-normal pb-20"
+              class="col-span-12 sm:col-span-6 lg:col-span-8 xl:col-span-9 text-4xl md:text-5xl xl:text-8xl font-title font-medium tracking-normal sm:pb-20"
             >
               Studio expérimental <br />
               & design graphique
             </h1>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3">
-              <div class="mt-12">
+              <div class="sm:mt-24">
                 <hr class="mb-4 bg-black" />
-                <p class="font-ibm text-left">
+                <p class="font-ibm text-left text-sm sm:text-base">
                   DBF, c’est un studio qui est parti d’un projet sur les rêves
                   (Voir Mirage). Et puis on s’est dit : «pourquoi pas faire un
                   studio ?» alors on l’a fait. Venez découvrir DBF. La flèche
@@ -45,9 +45,9 @@ useHead({ titleTemplate: 'Mirage' })
         <div
           class="absolute bottom-0 left-0 right-0 w-full flex flex-row justify-center p-4 bg-customGray"
         >
-          Studio fondé en 2022 à Rennes par Gauthier Dumont, Guillaume Bour &
-          Mathilde Faure, dans le cadre du Master 2 Directeur Artistique et
-          Numérique LISAA de Rennes.
+          <p class="font-ibm text-xs text-center">
+            Studio fondé en 2022 à Rennes par Gauthier Dumont, Guillaume Bour & Mathilde Faure, dans le cadre du Master 2 Directeur Artistique et Numérique LISAA de Rennes.
+          </p>
         </div>
       </div>
       <p class="text-3xl font-medium pb-2">Petite Histoire</p>
@@ -67,7 +67,7 @@ useHead({ titleTemplate: 'Mirage' })
       </p>
       <p class="text-3xl font-medium pb-2">Les valeurs du studio</p>
       <hr class="mb-4" />
-      <div class="flex flex-row wrap mb-5">
+      <div class="flex flex-row flex-wrap mb-5">
         <div>
           <p class="font-bold">Déconstruire</p>
           <p class="font-ibm text-left">
@@ -96,37 +96,30 @@ useHead({ titleTemplate: 'Mirage' })
       <p class="text-3xl pb-2">Nos projets</p>
       <hr class="mb-4" />
       <div class="flex flex-col w-full">
-        <div class="flex flex-row w-full py-2 gap-3">
-          <NuxtLink class="w-1/3" to="/teeshirt">
+        <div class="flex flex-row flex-wrap w-full py-2 gap-3">
+          <NuxtLink class="w-full sm:w-1/3" to="/teeshirt">
             <AwesomeImages img="/images/domicile/7.png" />
           </NuxtLink>
-          <NuxtLink class="w-2/3" to="/logofolio">
-
-            <AwesomeImages  img="/images/domicile/8.png" />
+          <NuxtLink class="w-full sm:w-2/3" to="/logofolio">
+            <AwesomeImages img="/images/domicile/8.png" />
           </NuxtLink>
-        </div>
-        <div class="flex flex-row w-full py-2 gap-3">
-          <NuxtLink class="w-1/2" to="">
+          <NuxtLink class="w-full sm:w-1/2" to="">
             <AwesomeImages img="/images/domicile/9.png" />
           </NuxtLink>
-          <NuxtLink class="w-1/2" to="/builtIinrennes">
+          <NuxtLink class="w-full sm:w-1/2" to="/builtIinrennes">
             <AwesomeImages img="/images/domicile/10.png" />
           </NuxtLink>
-        </div>
-        <div class="flex flex-row w-full py-2 gap-3">
-          <AwesomeImages class="w-1/3" img="/images/domicile/11.png" />
-          <NuxtLink class="w-1/3" to="/chronos">
+          <AwesomeImages class="w-full sm:w-1/3" img="/images/domicile/11.png" />
+          <NuxtLink class="w-full sm:w-1/3" to="/chronos">
             <AwesomeImages img="/images/domicile/12.png" />
           </NuxtLink>
-          <NuxtLink class="w-1/3" to="/mrbricolage">
+          <NuxtLink class="w-full sm:w-1/3" to="/mrbricolage">
             <AwesomeImages img="/images/domicile/13.png" />
           </NuxtLink>
-        </div>
-        <div class="flex flex-row w-full py-2 gap-3">
-          <NuxtLink class="w-2/3" to="/photographies">
+          <NuxtLink class="w-full sm:w-2/3" to="/photographies">
             <AwesomeImages img="/images/domicile/14.png" />
           </NuxtLink>
-          <NuxtLink class="w-1/3" to="/showreel">
+          <NuxtLink class="w-full sm:w-1/3" to="/showreel">
             <AwesomeImages img="/images/domicile/15.png" />
           </NuxtLink>
         </div>
