@@ -6,7 +6,7 @@ useHead({ titleTemplate: 'Mirage' })
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div
-        class="h-screen w-full sm:py-10 sm:py-20 flex items-start sm:items-end"
+        class="h-screen w-full py-10 sm:py-20 flex items-center sm:items-end"
       >
         <div class="mb-2">
           <div class="grid grid-cols-12 gap-4">
@@ -96,19 +96,23 @@ useHead({ titleTemplate: 'Mirage' })
       <p class="text-3xl pb-2">Nos projets</p>
       <hr class="mb-4" />
       <div class="flex flex-col w-full">
-        <div class="flex flex-row flex-wrap w-full py-2 gap-3">
+        <div class="flex flex-row w-full py-2 gap-3">
           <NuxtLink class="w-1/3" to="/teeshirt">
             <AwesomeImages img="/images/domicile/7.png" />
           </NuxtLink>
           <NuxtLink class="w-2/3" to="/logofolio">
             <AwesomeImages img="/images/domicile/8.png" />
           </NuxtLink>
+        </div>
+        <div class="flex flex-row w-full py-2 gap-3">
           <NuxtLink class="w-1/2" to="">
             <AwesomeImages img="/images/domicile/9.png" />
           </NuxtLink>
           <NuxtLink class="w-1/2" to="/builtIinrennes">
             <AwesomeImages img="/images/domicile/10.png" />
           </NuxtLink>
+        </div>
+        <div class="flex flex-row w-full py-2 gap-3">
           <AwesomeImages class="w-1/3" img="/images/domicile/11.png" />
           <NuxtLink class="w-1/3" to="/chronos">
             <AwesomeImages img="/images/domicile/12.png" />
@@ -116,6 +120,8 @@ useHead({ titleTemplate: 'Mirage' })
           <NuxtLink class="w-1/3" to="/mrbricolage">
             <AwesomeImages img="/images/domicile/13.png" />
           </NuxtLink>
+        </div>
+        <div class="flex flex-row w-full py-2 gap-3">
           <NuxtLink class="w-2/3" to="/photographies">
             <AwesomeImages img="/images/domicile/14.png" />
           </NuxtLink>
