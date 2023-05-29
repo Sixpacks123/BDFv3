@@ -70,9 +70,13 @@ export default <Partial<Config>>{
   ],
   theme: {
     extend: {
-      hr: {
-
+      text: {
+        petit: '8px',
       },
+      borderRadius: {
+        button: '15px', // Remplacez la valeur par celle souhaitée pour votre border radius spécial
+      },
+      hr: {},
       maxWidth: {
         '8xl': '90rem',
       },

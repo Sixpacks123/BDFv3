@@ -1,13 +1,45 @@
 <script lang="ts" setup>
+import { defineComponent } from 'vue'
+import { Carousel, Navigation, Slide } from 'vue3-carousel'
+
+import 'vue3-carousel/dist/carousel.css'
+
 definePageMeta({ layout: 'page' })
 useHead({ titleTemplate: 'Mirage' })
+
+const settings = {
+  itemsToShow: 1,
+  snapAlign: 'center',
+}
+
+const breakpoints = {
+  200: {
+    itemsToShow: 1.5,
+    snapAlign: 'center',
+  },
+  700: {
+    itemsToShow: 3.5,
+    snapAlign: 'center',
+  },
+  1024: {
+    itemsToShow: 6,
+    snapAlign: 'start',
+  },
+}
+
+defineComponent({
+  name: 'Breakpoints',
+  components: {
+    Carousel,
+    Slide,
+    Navigation,
+  },
+})
 </script>
 <template>
   <LayoutPageWrapper>
     <LayoutPageSection>
-      <div
-        class="h-screen w-full py-10 sm:py-20 flex items-center sm:items-end"
-      >
+      <div class="h-screen w-full py-10 sm:py-0 flex items-center sm:items-end">
         <div class="mb-2">
           <div class="grid grid-cols-12 gap-4">
             <h1
@@ -29,23 +61,28 @@ useHead({ titleTemplate: 'Mirage' })
               </div>
             </div>
           </div>
+
           <div class="pb-24">
-            <div
-              class="flex flew-row w-full justify-between pb-20 pt-20 flex-end"
+            <Carousel
+              v-bind="settings"
+              :breakpoints="breakpoints"
+              class="pb-20 pt-20"
             >
-              <img class="h-30 w-60" src="/images/domicile/1.png" />
-              <img class="h-30 w-60" src="/images/domicile/2.png" />
-              <img class="h-30 w-60" src="/images/domicile/3.png" />
-              <img class="h-30 w-60" src="/images/domicile/4.png" />
-              <img class="h-30 w-60" src="/images/domicile/5.png" />
-              <img class="h-30 w-60" src="/images/domicile/6.png" />
-            </div>
+              <Slide v-for="slide in 6" :key="slide">
+                <div class="carousel__item">
+                  <img
+                    class="h-30 w-60"
+                    :src="`/images/domicile/${slide}.png`"
+                  />
+                </div>
+              </Slide>
+            </Carousel>
           </div>
         </div>
         <div
           class="absolute bottom-0 left-0 right-0 w-full flex flex-row justify-center p-4 bg-customGray"
         >
-          <p class="font-ibm text-xs text-center text-black">
+          <p class="font-ibm sm:text-xs text-[8px] text-center text-black">
             Studio fondé en 2022 à Rennes par Gauthier Dumont, Guillaume Bour &
             Mathilde Faure, dans le cadre du Master 2 Directeur Artistique et
             Numérique LISAA de Rennes.

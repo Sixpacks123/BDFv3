@@ -74,5 +74,8 @@
       "release": true,
       "releaseName": "v${version}"
     }
+  },
+  "dependencies": {
+    "vue3-carousel": "^0.3.1"
   }
 }
