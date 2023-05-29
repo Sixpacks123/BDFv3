@@ -10,7 +10,7 @@ const showDrawer = ref(false)
 
 <template>
   <header
-    class="flex fixed backdrop-filter backdrop-blur-md top-0 z-40 w-full flex-none transition-colors duration-300 bg-white/[0.5] dark:bg-customBlack"
+    class="flex fixed px-10 backdrop-filter top-0 z-40 w-full flex-none transition-colors duration-300 bg-white dark:bg-customBlack"
   >
     <div
       class="flex-1 flex items-center justify-between max-w-screen-2xl mx-auto px-4"
@@ -19,8 +19,16 @@ const showDrawer = ref(false)
       <div>
         <slot name="title">
           <NuxtLink to="/" class="font-bold text-lg text-primary-500">
-            <img src="/images/Logo.png" class="dark:invisible dark:absolute" alt="logo" />
-            <img src="/images/image.png" class="invisible absolute dark:visible dark:static " alt="logo" />
+            <img
+              src="/images/Logo.png"
+              class="dark:invisible dark:absolute"
+              alt="logo"
+            />
+            <img
+              src="/images/image.png"
+              class="invisible absolute dark:visible dark:static"
+              alt="logo"
+            />
           </NuxtLink>
         </slot>
       </div>
@@ -59,10 +67,10 @@ const showDrawer = ref(false)
           <!-- <AwesomeLink class="text-gray-400 hover:text-gray-100">
             <Icon name="la:language" />
           </AwesomeLink> -->
-          <LayoutPageNavbarDropdownThemeSwitcher />
+          <!-- <LayoutPageNavbarDropdownThemeSwitcher />-->
         </div>
       </div>
-      <!-- drawer -->
+      <!-- drawer
       <div
         v-else
         class="flex space-x-4 items-center"
@@ -77,7 +85,7 @@ const showDrawer = ref(false)
             <Icon name="uil:bars" />
           </AwesomeLink>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- misc -->
     <!-- drawer -->
@@ -107,7 +115,7 @@ const showDrawer = ref(false)
                       'text-slate-900 dark:text-slate-100 font-bold': isActive,
                       'text-slate-700 dark:text-slate-300': !isActive,
                     }"
-                  >{{ item?.title || '' }}</span
+                    >{{ item?.title || '' }}</span
                   >
                 </NuxtLink>
               </template>
