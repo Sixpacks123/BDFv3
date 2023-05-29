@@ -106,7 +106,7 @@ defineComponent({
       </p>
       <p class="text-3xl font-medium pb-2">Les valeurs du studio</p>
       <hr class="mb-4 dark:border-white" />
-      <div class="flex flex-row flex-wrap mb-5">
+      <div class="flex flex-row mb-5">
         <div>
           <p class="font-bold">Déconstruire</p>
           <p class="font-ibm text-left">
@@ -129,6 +129,45 @@ defineComponent({
             Terme artisanal. Le studio est composé de passionnées qui aiment
             toucher à tout. Mais surtout, qui ne délaissera jamais le print au
             profit du web. Ça, JAMAIS : le graphiste est avant tout un artisan.
+          </p>
+        </div>
+      </div>
+      <p class="text-3xl font-medium pb-2">L'equipe</p>
+      <hr class="mb-4 dark:border-white" />
+      <div class="flex flex-row mb-5">
+        <div>
+          <div class="flex flex-row items-end pb-4">
+            <p class="font-bold">Guillaume Bour, 25 ans</p>
+            <img src="/images/TÊTE/guillaume.png" class="h-[181px]" alt="guillaume" />
+          </div>
+          <p class="font-ibm text-left">
+            Guillaume est l’homme de la situation pour tout vos
+            montages/Motion/illustration 3D. Toujours de bonne humeur, c’est un
+            vrai rayon de soleil.
+          </p>
+        </div>
+        <div>
+          <div class="flex flex-row items-end pb-4">
+            <p class="font-bold">Gauthier Dumont, 26 ans</p>
+            <img src="/images/TÊTE/gauthier.png" class="h-[181px]" alt="gauthier" />
+          </div>
+
+          <p class="font-ibm text-left">
+            Gauthier, llustrateur fou, aime la photographie et l’introspection.
+            Son rêve ? Être en première ligne pour photographier les 24H du Man
+            muni de son appareil argentique.
+          </p>
+        </div>
+        <div>
+          <div class="flex flex-row items-end pb-4">
+            <p class="font-bold">Mathilde Faure, 23 ans</p>
+            <img src="/images/TÊTE/mathilde.png" class="h-[181px]" alt="mathilde" />
+          </div>
+          <p class="font-ibm text-left">
+            Mathilde voue un culte au minimalisme. Elle aime donner du sens à
+            ses projets. Sa passion ? Se casser la tête avec la mise en page
+            (print&web), elle ne s’arrête que quand elle est pleinement
+            satisfaite.
           </p>
         </div>
       </div>
