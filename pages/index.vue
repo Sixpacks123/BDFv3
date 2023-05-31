@@ -109,7 +109,7 @@ defineComponent({
       </p>
       <p class="text-3xl font-medium pb-2">Les valeurs du studio</p>
       <hr class="mb-4 dark:border-white" />
-      <div class="flex flex-row mb-5">
+      <div class="flex sm:flex-row flex-col mb-5">
         <div>
           <p class="font-bold">Déconstruire</p>
           <p class="font-ibm text-left">
@@ -137,7 +137,7 @@ defineComponent({
       </div>
       <p class="text-3xl font-medium pb-2">L'equipe</p>
       <hr class="mb-4 dark:border-white" />
-      <div class="flex flex-row mb-5">
+      <div class="flex sm:flex-row flex-col mb-5">
         <div>
           <div class="flex flex-row items-end pb-4">
             <p class="font-bold">Guillaume Bour, 25 ans</p>

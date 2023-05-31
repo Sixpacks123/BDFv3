@@ -84,7 +84,7 @@ export default defineNuxtConfig({
       mdc: true,
     },
     highlight: {
-      theme: 'github-dark',
+      theme: 'github-light',
     },
   },
 
