@@ -62,21 +62,24 @@ defineComponent({
             </div>
           </div>
 
-          <div class="pb-24">
+          <div class="pb-24 mt-10 relative">
             <Carousel
               v-bind="settings"
               :breakpoints="breakpoints"
-              class="pb-20 pt-20"
+              class="sm:pb-20 sm:pt-20"
             >
               <Slide v-for="slide in 6" :key="slide">
                 <div class="carousel__item">
                   <img
-                    class="h-30 w-60"
+                    class="h-30 w-60 px-2"
                     :src="`/images/domicile/${slide}.png`"
                   />
                 </div>
               </Slide>
+
             </Carousel>
+
+            <img src="/images/SVG/Flèche.svg" class="w-[52px] h-[52px] sm:w-[122px] sm:h-[122px] absolute top-0 sm:-right-12 -right-2 arrow-animation hover:animate-hoverArrow" />
           </div>
         </div>
         <div
@@ -213,3 +216,26 @@ defineComponent({
     </LayoutPageSection>
   </LayoutPageWrapper>
 </template>
+<style>
+@keyframes hoverPathAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-hoverPathAnimation {
+  animation-name: hoverPathAnimation;
+  animation-duration: 1s; /* Adjust the duration as needed */
+  animation-fill-mode: forwards;
+}
+
+.hover\:animate-hoverPathAnimation:hover {
+  animation-name: hoverPathAnimation;
+  animation-duration: 1s; /* Adjust the duration as needed */
+  animation-fill-mode: forwards;
+}
+</style>

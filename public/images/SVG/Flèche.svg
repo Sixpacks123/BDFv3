@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: #defd34;
+      }
+
+      .cls-2 {
+      fill: #141414;
+      }
+
+    </style>
+  </defs>
+  <g id="Groupe_1147" data-name="Groupe 1147">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="249.72" cy="249.84" r="240.84"/>
+    <g transform="translate(249.72, 249.84) rotate(90) translate(-249.72, -249.84)">
+      <path id="Tracé_1348" data-name="Tracé 1348" class="cls-2 animate-pathAnimation hover:animate-hoverPathAnimation" d="M99.94,254.21h238.04l45.61-.46.42.88-22.8,21.08-46.84,46.86,6.33,6.32,78.94-78.94-78.94-78.9-6.32,6.32,46.82,46.86,22.8,21.11-.42.81-45.61-.39H99.94v8.45Z"/>
+    </g>
+  </g>
+</svg>
