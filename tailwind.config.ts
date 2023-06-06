@@ -56,7 +56,6 @@ const MyTheme = {
 }
 
 export default <Partial<Config>>{
-  darkMode: 'class',
   content: [
     './components/**/*.{vue,js,ts}',
     './layouts/**/*.vue',
