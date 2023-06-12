@@ -10,7 +10,7 @@ const showDrawer = ref(false)
 
 <template>
   <header
-    class="flex fixed backdrop-filter backdrop-blur-md top-0 z-40 w-full flex-none transition-colors duration-300 bg-white"
+    class="flex fixed backdrop-filter backdrop-blur-md top-0 z-40 w-full flex-none transition-colors duration-300 bg-white/[0.5] dark:bg-customBlack"
   >
     <div
       class="flex-1 flex items-center justify-between max-w-screen-2xl mx-auto px-4"
