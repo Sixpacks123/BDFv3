@@ -67,6 +67,7 @@ export default <Partial<Config>>{
     './Error.{js,ts,vue}',
     './error.{js,ts,vue}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       text: {
