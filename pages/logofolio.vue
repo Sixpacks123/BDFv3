@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-definePageMeta({ layout: 'page' })
+definePageMeta({ layout: 'page',colorMode: 'light'})
 </script>
 
 <template>
