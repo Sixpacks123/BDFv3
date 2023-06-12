@@ -8,9 +8,9 @@ export default defineNuxtConfig({
     localLayerAliases: true,
   },
     colorMode: {
-       preference: 'light', // default value of $colorMode.preference
-    fallback: 'light' // fallback value if not system preference found
-    }
+    preference: 'light',
+    fallback: 'light', // Add a comma here
+  },
 
   // app config
   app: {
