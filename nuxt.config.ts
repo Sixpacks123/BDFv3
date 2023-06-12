@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
     colorMode: {
        preference: 'light', // default value of $colorMode.preference
-    fallback: 'light', // fallback value if not system preference found
+    fallback: 'light' // fallback value if not system preference found
     }
 
   // app config
