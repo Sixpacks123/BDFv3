@@ -4,7 +4,7 @@ import { Carousel, Navigation, Slide } from 'vue3-carousel'
 
 import 'vue3-carousel/dist/carousel.css'
 
-definePageMeta({ layout: 'page' })
+definePageMeta({ layout: 'page',colorMode: 'light'})
 useHead({ titleTemplate: 'Mirage' })
 
 const settings = {
