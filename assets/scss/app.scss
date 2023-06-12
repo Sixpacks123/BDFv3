@@ -73,12 +73,5 @@ hr {
   padding: 0;
 }
 
-hr.dark {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid white;
-  padding: 0;
-}
 // components
 @import 'animations/transitions';
